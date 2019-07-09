@@ -506,9 +506,6 @@ h2.screencast a:active {
   .home aside {
     margin-bottom: 1em;
   }
-  .home aside .section {
-    margin-top: ;
-  }
   footer p {
     margin-bottom: 0.5em;
   }
@@ -661,5 +658,5 @@ code {
 }
 /* IE8 */
 html .home .section {
-  padding-right: 0\0/;
+  padding-right: 0;
 }
