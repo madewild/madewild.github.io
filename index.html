@@ -24,22 +24,9 @@
       </hgroup>
     </header>
 
-   <nav>
-      <ul>
-        <li>
-          <a href="experience/">Experience</a>
-        </li>
-	    <li>
-          <a href="education/">Education</a>
-        </li>
-        <li>
-          <a href="expertise/">Expertise</a>
-        </li>
-      </ul>
-    </nav> 
+    {% include nav.html %}
 
     <article>
-    
         <h2>Looking for semantic solutions?</h2>
         <p>After completing my PhD in natural language processing at the <a href="https://www.ulb.be/" target="_blank">Université libre de Bruxelles</a> (ULB) in 2015, I started working as a consultant for the European Commission and eventually created my own company, <a href="http://semanticsolutions.be" target="_blank">Semantic Solutions</a>, in 2018.</p>
         <p>When not helping people to make sense of their unstructured data, I teach three classes to Master-level students: 
@@ -47,13 +34,7 @@
           and Information technology at the University of Geneva.</p>
     </article>
 
-    <aside>
-        <h2>Get in touch</h2>
-        <p>Send me an <a href="mailto:max@semanticsolutions.be" target="_blank">email</a>.</p>
-
-	    <h2>Collaborate</h2>
-        <p>Fork me on <a href="https://github.com/madewild/" target="_blank">GitHub</a>.</p>
-    </aside>
+    {% include aside.html %}
 
     {% include footer.html %}
 

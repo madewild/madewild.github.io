@@ -24,19 +24,7 @@
       </hgroup>
     </header>
 
-   <nav>
-      <ul>
-        <li>
-          <a href="../experience/">Experience</a>
-        </li>
-	    <li>
-          <a href="../education/">Education</a>
-        </li>
-        <li>
-          <a href="../expertise/">Expertise</a>
-        </li>
-      </ul>
-    </nav> 
+    {% include nav.html %}
 
     <article>
     
@@ -49,13 +37,7 @@
         </ul>   
     </article>
 
-    <aside>
-        <h2>Get in touch</h2>
-        <p>Send me an <a href="mailto:max@semanticsolutions.be" target="_blank">email</a>.</p>
-
-	    <h2>Collaborate</h2>
-        <p>Fork me on <a href="https://github.com/madewild/" target="_blank">GitHub</a>.</p>
-    </aside>
+    {% include aside.html %}
 
     {% include footer.html %}
 
