@@ -256,7 +256,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   kramdown (>= 2.3.0)
-  nokogiri (~> 1.11.0)
+  nokogiri (~> 1.11.2)
 
 BUNDLED WITH
    2.2.15
